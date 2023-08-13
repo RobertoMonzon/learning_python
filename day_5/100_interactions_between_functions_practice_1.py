@@ -22,7 +22,7 @@ def evaluate_play(die1,die2):
     if sum_dice <=6:
         return (f"the sum of your dice is {sum_dice}. Sorry.")
     elif sum_dice <6 and sum_dice <10:
-        retunr (f"The sum of your dice is {sum_dice}. You have a good chance")
+        return (f"The sum of your dice is {sum_dice}. You have a good chance")
     elif sum_dice >=10:
         return (f"The sum of your dice is {sum_dice}. It looks like a winning move.")
 

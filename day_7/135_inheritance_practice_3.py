@@ -12,6 +12,4 @@ class Vehicle():
 class Car(Vehicle):
     pass
 
-vw=Car
-print(vw.accelerate)
-print(vw.brake)
+
